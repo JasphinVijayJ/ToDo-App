@@ -1,12 +1,49 @@
-# React + Vite
+# 📝 React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **To-Do Application** built using **React**.  
+It allows users to add, edit, and delete tasks easily.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- ➕ **Add Tasks** — Quickly add new tasks to your to-do list.
+- 📝 **Edit Tasks** — Modify an existing task.
+- ❌ **Delete Tasks** — Remove tasks from the list.
+- 📜 **View All Tasks** — See all your pending tasks in a simple list.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **React** (JavaScript Library)
+- **CSS** for styling
+- **useState Hook** for managing state
 
-## Expanding the ESLint configuration
+## 📂 Folder Structure
+project-folder/
+│
+├── src/
+│   ├── App.js
+│   ├── InputArea.js
+│   ├── ItemDisplay.js
+│   ├── App.css
+│   └── index.js
+│
+├── public/
+│   └── index.html
+│
+└── package.json
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+1. **Clone the repository**
+   git clone https://github.com/your-username/todo-app.git
+
+2. **Navigate into the project**
+   cd todo-app
+
+3. **Install dependencies**
+   npm install
+
+4. **Run the application**
+   npm start
+
+## 🎯 How to Use
+1. Enter a task in the input field.
+2. Click **"Add Task"** to add it to the list.
+3. Use the **Edit** button to change a task.
+4. Use the **Delete** button to remove a task.
