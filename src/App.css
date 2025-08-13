@@ -1,0 +1,83 @@
+/* App.jsx */
+
+.container {
+    width: 800px;
+    justify-self: center;
+    margin: 100px;
+    background-color: gainsboro;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightgray;
+}
+
+h1 {
+    text-align: center;
+    color: coral;
+    padding-bottom: 20px;
+}
+
+/* InputArea.jsx */
+
+.inputcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-1 {
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.button-1 {
+    padding: 15px;
+    width: 130px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background-color: lime;
+    color: white;
+    font-weight: bold;
+}
+
+/* ItemDisplay.jsx */
+
+ol {
+    margin: 30px 20px 0px;
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.displaybox {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.input-2 {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button-2 {
+    padding: 10px;
+    width: 100px;
+    background-color: orange;
+}
+
+.button-3 {
+    background-color: deepskyblue;
+}
+
+.button-4 {
+    background-color: tomato;
+}
